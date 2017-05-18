@@ -1,0 +1,5 @@
+rem 将本文件复制为mount_t_u.bat后，修改里面的路径为本地相应工程的绝对路径
+rem 若要使用编辑器，每次重启电脑后需要运行此文件
+
+subst /D x:
+subst x: "D:\Work\CQ2\Client"

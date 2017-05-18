@@ -1,0 +1,49 @@
+
+R
+test.hxx"-
+PBTest
+
+id (
+xml (2
+.PBTestXML"
+	PBTestXML
+
+id (
+Ò
+client_config.hxx"œ
+PBData_ClientSetting,
+game_setting (2.PBData_GameIDSettings+
+login_setting (2.PBData_LoginSetting)
+lang_setting (2.PBData_LangSetting"7
+PBData_GameIDSettings
+game_id (
+ad_id (	"<
+PBData_LoginSetting
+	login_url (	
+
+update_url (	"'
+PBData_LangSetting
+	lang_type (	
+¦
+resource_config.hxx"E
+PBData_ResourceInfoList*
+resouce_list (2.PBData_ResourceInfo"g
+PBData_ResourceInfo
+key (	
+path (	
+md5 (	(
+
+dependence (2.PBData_ResourceInfo":
+PBData_DetailList%
+	info_list (2.PBData_DetailInfo"a
+PBData_DetailInfo
+key (	$
+res_type (2.TGameResourceType
+path (	
+md5 (	*@
+TGameResourceType
+
+enText
+enUI
+enScene
+enFX

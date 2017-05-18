@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PBData_ClientSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <game_setting game_id="530" ad_id="10000001" />
+  <login_setting login_url="10.10.42.226" update_url="10.10.42.226"/>
+  <lang_setting lang_type="zh-CN"/>
+</PBData_ClientSetting>

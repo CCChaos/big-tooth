@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D23D71ED-55BF-4288-86F7-3BD9CB8005F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bt</RootNamespace>
+    <AssemblyName>bt</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>X:\Assets\Plugins\bt\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BTDEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;BTDEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="src\io\BitStream.cs" />
+    <Compile Include="src\io\BTDataIndexFile.cs" />
+    <Compile Include="src\io\BTFile.cs" />
+    <Compile Include="src\misc\algorithm\KeyValue.cs" />
+    <Compile Include="src\misc\algorithm\QuickList.cs" />
+    <Compile Include="src\misc\algorithm\SortedList.cs" />
+    <Compile Include="src\misc\cache\IRecycleable.cs" />
+    <Compile Include="src\misc\cache\ObjectCache.cs" />
+    <Compile Include="src\misc\cache\ObjectPool.cs" />
+    <Compile Include="src\misc\debug\CPUProfiler.cs" />
+    <Compile Include="src\misc\debug\Debug.cs" />
+    <Compile Include="src\misc\design_patterns\Singleton.cs" />
+    <Compile Include="src\misc\share\MemberReflectable.cs" />
+    <Compile Include="src\misc\util\BTTree.cs" />
+    <Compile Include="src\misc\util\Handle.cs" />
+    <Compile Include="src\io\BTStream.cs" />
+    <Compile Include="src\misc\msgcode\MessageCode.cs" />
+    <Compile Include="src\misc\share\Compare.cs" />
+    <Compile Include="src\io\ByteStream.cs" />
+    <Compile Include="src\misc\thread\SafeQueue.cs" />
+    <Compile Include="src\net\BTBitNetStream.cs" />
+    <Compile Include="src\net\BTNetConnect.cs" />
+    <Compile Include="src\net\BTByteNetStream.cs" />
+    <Compile Include="src\net\Connect.cs" />
+    <Compile Include="src\net\HttpGetRequest.cs" />
+    <Compile Include="src\net\INetConnect.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

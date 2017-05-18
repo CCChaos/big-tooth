@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<metas version="2.0">
+  <types />
+  <agents>
+    <agent classfullname="behaviac::Agent" inherited="true" DisplayName="" Desc="" Namespace="behaviac" />
+    <agent classfullname="AgentBase" base="behaviac::Agent" DisplayName="AgentBase" Desc="AgentBase -&gt; Agent">
+      <Member Name="AI_HP" DisplayName="" Desc="" Type="int" Class="AgentBase" Public="true" />
+      <Member Name="AI_MP" DisplayName="" Desc="" Type="int" Class="AgentBase" Public="true" />
+      <Method Name="AI_Attack" DisplayName="" Desc="" ReturnType="bool" Class="AgentBase" Public="true" />
+      <Method Name="AI_Idle" DisplayName="" Desc="" ReturnType="bool" Class="AgentBase" Public="true" />
+      <Method Name="AI_Sleep" DisplayName="" Desc="" ReturnType="bool" Class="AgentBase" Public="true" />
+    </agent>
+  </agents>
+  <instances>
+    <instance name="AgentBase" class="AgentBase" DisplayName="AgentBase" Desc="AgentBase" />
+  </instances>
+</metas>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="test_ai" xmlmetafolder="meta" folder="behaviors" export="exported">
+  <xmlmeta>meta_agent_base.xml</xmlmeta>
+  <export>
+    <cpp>
+      <isexported>False</isexported>
+      <filename>generated_behaviors</filename>
+    </cpp>
+    <bson>
+      <isexported>False</isexported>
+      <filename>generated_behaviors</filename>
+    </bson>
+    <cs>
+      <isexported>True</isexported>
+      <filename>generated_test_base_behaviors.cs</filename>
+      <folder>../../../../3rd/行为树BT/test_bt/Assets/Script/AI/GeneratedAI</folder>
+    </cs>
+  </export>
+</workspace>

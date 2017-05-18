@@ -1,0 +1,26 @@
+
+// 客户端配置
+message PBData_ClientSetting
+{
+	required		PBData_GameIDSettings		game_setting	=	 	1; // 游戏客户端设置
+	required		PBData_LoginSetting			login_setting		=		2; // 登录以及更新设置
+	required		PBData_LangSetting				lang_setting		=		3; // lang类型设置
+}
+
+message PBData_GameIDSettings
+{
+	optional		uint32		game_id			=		1; // gameid
+	optional		string		ad_id				= 		2; // 广告id
+}
+
+message PBData_LoginSetting
+{
+	optional		string		login_url		=		1; // 登录地址
+	optional		string		update_url	=		2; // 更新地址
+}
+
+message PBData_LangSetting
+{
+	optional		string		lang_type		=		1; // lang
+}
+

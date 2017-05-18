@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: test_base.xml-->
+<behavior name="test_base" agenttype="AgentBase" version="1">
+  <node class="DecoratorLoop" version="1" id="0">
+    <property Count="const int -1" />
+    <property DecorateWhenChildEnds="true" />
+    <node class="Parallel" version="1" id="1">
+      <property ChildFinishPolicy="CHILDFINISH_LOOP" />
+      <property ExitPolicy="EXIT_ABORT_RUNNINGSIBLINGS" />
+      <property FailurePolicy="FAIL_ON_ONE" />
+      <property SuccessPolicy="SUCCEED_ON_ALL" />
+      <node class="Action" version="1" id="2">
+        <property Method="Self.AgentBase::AI_Attack()" />
+        <property PreconditionFailResult="BT_FAILURE" />
+        <property ResultOption="BT_SUCCESS" />
+      </node>
+      <node class="Action" version="1" id="3">
+        <property Method="Self.AgentBase::AI_Idle()" />
+        <property PreconditionFailResult="BT_FAILURE" />
+        <property ResultOption="BT_SUCCESS" />
+      </node>
+      <node class="Action" version="1" id="4">
+        <property Method="Self.AgentBase::AI_Sleep()" />
+        <property PreconditionFailResult="BT_FAILURE" />
+        <property ResultOption="BT_SUCCESS" />
+      </node>
+    </node>
+  </node>
+</behavior>

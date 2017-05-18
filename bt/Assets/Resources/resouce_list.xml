@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <path_list key="monster_001" value="D:/Work/CQ2/Client/Assets/Arts/character/monster/test/prefab/monster_001.prefab" />
+  <path_list key="monster_001_story" value="D:/Work/CQ2/Client/Assets/Arts/character/monster/test/prefab/monster_001_story.prefab" />
+  <path_list key="bl@attack01" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack01.prefab" />
+  <path_list key="bl@attack01_shou" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack01_shou.prefab" />
+  <path_list key="bl@attack02" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack02.prefab" />
+  <path_list key="bl@attack02_shou" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack02_shou.prefab" />
+  <path_list key="bl@attack03" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack03.prefab" />
+  <path_list key="bl@attack05" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack05.prefab" />
+  <path_list key="bl@attack06" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack06.prefab" />
+  <path_list key="bl@attack07" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack07.prefab" />
+  <path_list key="bl@attack08" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack08.prefab" />
+  <path_list key="bl@attack09" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack09.prefab" />
+  <path_list key="bl@attack10" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack10.prefab" />
+  <path_list key="bl@attack11" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack11.prefab" />
+  <path_list key="bl@attack12" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack12.prefab" />
+  <path_list key="bl@attack13" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@attack13.prefab" />
+  <path_list key="bl@call" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@call.prefab" />
+  <path_list key="bl@death" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@death.prefab" />
+  <path_list key="bl@down" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@down.prefab" />
+  <path_list key="bl@faint" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@faint.prefab" />
+  <path_list key="bl@fly" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@fly.prefab" />
+  <path_list key="bl@flydown" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@flydown.prefab" />
+  <path_list key="bl@flyup" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@flyup.prefab" />
+  <path_list key="bl@gethit" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@gethit.prefab" />
+  <path_list key="bl@idle" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@idle.prefab" />
+  <path_list key="bl@jumpin" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@jumpin.prefab" />
+  <path_list key="bl@jumpout" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@jumpout.prefab" />
+  <path_list key="bl@run" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@run.prefab" />
+  <path_list key="bl@stand" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@stand.prefab" />
+  <path_list key="bl@standby" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@standby.prefab" />
+  <path_list key="bl@xr" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@xr.prefab" />
+  <path_list key="bl@xrjump" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl@xrjump.prefab" />
+  <path_list key="bl_BaseAnim" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/animation/prefab/bl_BaseAnim.prefab" />
+  <path_list key="bl_00" value="D:/Work/CQ2/Client/Assets/Arts/character/player/test/bl_00/prefab/bl_00.prefab" />
+</root>

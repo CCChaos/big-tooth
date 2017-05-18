@@ -1,0 +1,60 @@
+
+enum TGameResourceType
+{
+	enText = 1;		// 文本
+	enUI = 2;			// UI
+	enScene = 3;	// 场景
+	enFX = 4;			// 特效
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Editor 资源
+message PBData_EditorResourceInfoList
+{
+	repeated		PBData_EditorResourceInfo		resouce_list	=	 	1; // 资源列表
+}
+
+// 客户端资源基础信息
+message PBData_EditorResourceInfo
+{
+	optional		string								key					=		1; // 文件别名
+	optional		string								path					= 		2; // 路径
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Asset 资源
+// Asset资源信息
+message PBData_AssetResourceInfo
+{
+	optional		string									key						= 		1; // 资源名
+	optional		string									path						=		2; // 路径
+	optional		PBData_AssetResourceInfo	dependence_list 	= 		3; // 依赖资源
+}
+
+// 资源管理列表
+message PBData_AssetResourceInfoList
+{
+	repeated		PBData_AssetObjectResourceInfo			object_list			=		1; // 资源列表
+}
+// 实体资源（角色、怪物、翅膀、武器等）
+message PBData_AssetObjectResourceInfo
+{
+	optional		string													key					=		1; // 文件别名
+	optional		PBData_AssetResourceInfo					mesh				=		2; // 蒙皮
+	optional		PBData_AssetResourceInfo					bone				=		3; // 骨骼
+	repeated		PBData_AssetResourceInfo					materials			=		4; // 材质
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// 配置树
+message PBData_ResourceConfigTree
+{
+	optional	string										version_id			=		1; // 版本
+	repeated	PBData_ResourceConfigInfo		config_list			=		2; // 配置列表
+}
+message PBData_ResourceConfigInfo
+{
+	optional		string			key				=			1; // 名称
+	optional		string			path				=			2; // 路径
+	optional		string			version_id		=			3; // 版本
+}
